@@ -53,7 +53,6 @@ def data_cleansing(content):
     # 공백 제거
     refine_content = re.sub(r' ', '', refine_content)
 
-
     return refine_content
 
 
