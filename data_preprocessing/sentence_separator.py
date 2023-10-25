@@ -20,4 +20,4 @@ def sentence_split(input_csv_path, output_csv_path):
                 writer.writerow(list(row) + [str(split_sentence)])
 
 if __name__ == '__main__':
-    sentence_split(input_csv_path='data/refine_data.csv', output_csv_path='data/kss_data.csv')
+    sentence_split(input_csv_path='', output_csv_path='')
